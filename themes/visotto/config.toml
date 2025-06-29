@@ -29,7 +29,7 @@ palette = "base16-dark"
 # Sidebar: about/bio
 [params.about]
 title = "Max Heiber"
-description = "words on software engineering"
+description = "..."
 # unicode/emoji logo:
 logo = "🍚"
 # or use an image:
