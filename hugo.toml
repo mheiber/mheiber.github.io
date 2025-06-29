@@ -1,4 +1,14 @@
 baseURL = 'https://example.org/'
 languageCode = 'en-us'
-title = 'Max Heiber The Blog'
+title = 'posts'
 theme = 'visotto'
+
+[markup]
+  [markup.tableOfContents]
+    startLevel = 2
+    endLevel   = 3
+    ordered    = true
+  
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

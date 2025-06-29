@@ -29,9 +29,9 @@ palette = "base16-dark"
 # Sidebar: about/bio
 [params.about]
 title = "Max Heiber"
-description = "..."
+description = ""
 # unicode/emoji logo:
-logo = "🍚"
+logo = ""
 # or use an image:
 #logo_image = "images/rice.svg"
 
@@ -43,12 +43,12 @@ logo = "🍚"
 [[params.socialLinks]]
 icon = "fa-brands fa-github"
 title = "GitHub"
-url = "https://github.com/joeroe/risotto"
+url = "https://github.com/mheiber"
 
 [[params.socialLinks]]
 icon = "fa-brands fa-linkedin"
 title = "LinkedIn"
-url = "mailto:example@example.com"
+url = "https://www.linkedin.com/in/maxheiber/?originalSubdomain=uk"
 
 # [[params.socialLinks]]
 # icon = "ai ai-orcid"
@@ -57,29 +57,27 @@ url = "mailto:example@example.com"
 
 [menu]
 
-  [[menu.main]]
-    identifier = "about"
-    name = "About"
-    url = "/about/"
-    weight = 10
+  # [[menu.main]]
+  #   identifier = "about"
+  #   name = "About"
+  #   url = "/about/"
+  #   weight = 10
 
 [taxonomies]
 category = "categories"
 tag = "tags"
 series = "series"
 
-# For hugo >= 0.60.0, enable inline HTML
-[markup.goldmark.renderer]
-unsafe = true
-
 [markup]
-
   # Table of contents
   # Add toc = true to content front matter to enable
   [markup.tableOfContents]
     startLevel = 2
     endLevel   = 3
     ordered    = true
+  
+  [markup.goldmark.renderer]
+    unsafe = true
 
 [privacy]
 
@@ -107,3 +105,5 @@ unsafe = true
 
   [services.twitter]
     disableInlineCSS = true
+
+
