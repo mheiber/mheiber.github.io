@@ -2,6 +2,7 @@ baseURL = 'https://example.org/'
 languageCode = 'en-us'
 title = 'posts'
 theme = 'visotto'
+publishDir = 'docs'
 
 [markup]
   [markup.tableOfContents]
